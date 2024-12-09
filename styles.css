@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    background-color: rgba(82, 194, 231, 0.613);
+} 
+h1{
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+form{
+    background-color: white;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 2em;
+    font-weight: bold;
+}
+input{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+button{
+    background-color: rgba(23, 69, 23, 0.484);
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(15, 45, 15, 0.484);
+}
+#total{
+    font-size: 2em;
+}
+#total-amount{
+    color: rgba(0, 182, 0, 0.592);
+    font-weight: bold;
+}
